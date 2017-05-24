@@ -2,10 +2,13 @@
 <html>
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+      overflow-y: auto;
       }
     .whole {
       margin-top: 0;
@@ -19,39 +22,39 @@
   
       
     }
+    
     .lyrics {
       background: rgb(255, 241, 224);
-      
-      
       padding: 20px;
-     
       
     }
-    .header {
-      background-image: url(graham.jpg);
-      font-family: 'Roboto', sans-serif;
-     	height: 100px;
-      line-height: 100px;
-      padding: 0px;
-      text-align: center;
+
+    .nav {
+      color: black;
+      display: block;
+      position: fixed;
+      margin: 0;
+      background-color: rgba(132, 135, 132, 0.5);
+      overflow-y: auto;
       width: 100%;
-      vertical-align: middle;
+      z-index: 999;
     }
     
-    .nav {
-      color: red;
-      height: 50px;
-      background-color: #939eaf;
-      width: 100%;
-      
+    
+    
+    ul {
+    margin: auto 20px;
+    text-align: center;
     }
+    
     li {
       display: inline;
       border: 2px solid rgb(123, 87, 25);
+      background-color: rgb(123, 87, 25);
       font-size: 20px;
       line-height: 50px;
-      margin-left: 20px;
-      margin-right: 20px;
+      margin-left: 1px;
+      margin-right: 1px;
       padding: 3px 5px;
       text-transform: uppercase;
       vertical-align: middle;
@@ -67,8 +70,11 @@
     }
     
     h2 {
-      
+      font-family: 'Indie Flower', cursive;
+      position: relative;
+      margin-top: 20px;
       text-align: center;
+      text-transform: uppercase;
     }
     
     h3 {
@@ -82,8 +88,38 @@
        text-align: none;
        margin: 20px;
     }
+    .cover h1{
+      font-size: 50px;
+      font-family: 'Indie Flower', cursive;
+      margin-top: 250px;
+      margin-bottom: 75px;
+    }
+    .head {
+      background: url("https://i.imgur.com/SIk9LkV.jpg") no-repeat center top;
+      background-attachment: fixed;
+      background-size: cover;
+      overflow-y: auto;
+      position: relative;
+      text-align: center;
+    }
     
-    p {
+  
+    .cover .btn {
+      background-color: #14213D;
+      background-image: -webkit-linear-gradient(#adffa5, #32702c);
+      color: #FFF;
+      display: inline-block;
+      font-family: 'Amatic SC', cursive;
+      font-size: 26px;
+      padding: 14px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-bottom: 250px;
+      
+      
+    }
+    
+    .lyrics p {
       background: #FFF;
       border-radius: 10px;
       border-style: solid;
@@ -99,17 +135,26 @@
   <body>
     <div class="whole">
     <div class="header">
-    	<h1>Hey dude</h1>
+    	
     </div>
     <div class="nav">
       <div class="list">
       <ul>
-        <li>Home</li>
-        <li>Products</li>
-        <li>Settings</li>
-        <li>Inbox</li>
+        <li itemprop="name">Home</li>
+        <li itemprop="name">Products</li>
+        <li itemprop="name">Settings</li>
+        <li itemprop="name">Inbox</li>
       </ul>
     </div>
+    </div>
+    <div class="head">
+      <div class="cover">
+        <h1>
+          Take a Trip
+        </h1>
+        <a href="#" class="btn">Let's do it!</a>
+      </div>
+    
     </div>
     <div class="lyrics">
    	 <h2>No dude</h2>
