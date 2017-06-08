@@ -125,3 +125,7 @@
       color: gray; 
       font-weight 700;
     }
+
+    .nav a {
+      text-decoration: none;
+    }
