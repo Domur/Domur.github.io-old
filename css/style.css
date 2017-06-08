@@ -1,0 +1,127 @@
+/* css/style.css */ 
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      overflow-y: auto;
+      }
+    .whole {
+      margin-top: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+     
+      background: transparent;
+      font-family: 'Raleway';
+  
+      
+    }
+    
+    .lyrics {
+      background: rgb(255, 241, 224);
+      padding: 20px;
+      
+    }
+
+    .nav {
+      color: black;
+      display: block;
+      position: fixed;
+      margin: 0;
+      background-color: rgba(132, 135, 132, 0.5);
+      overflow-y: auto;
+      width: 100%;
+      z-index: 999;
+    }
+    
+    
+    
+    ul {
+    margin: auto 20px;
+    text-align: center;
+    }
+    
+    li {
+      display: inline;
+      border: 2px solid rgb(123, 87, 25);
+      background: rgb(255, 241, 224);
+      font-size: 20px;
+      line-height: 50px;
+      margin-left: 1px;
+      margin-right: 1px;
+      padding: 3px 5px;
+      text-transform: uppercase;
+      vertical-align: middle;
+    }
+   
+    .list {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    
+    #info {
+      float: center;
+    }
+    
+    h2 {
+      font-family: 'Indie Flower', cursive;
+      position: relative;
+      margin-top: 20px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    
+    h3 {
+      border: 2px solid rgb(123, 87, 25);
+    }
+    
+    #search{
+      float: right;
+      display: inline-block;
+      vertical-align: none;
+       text-align: none;
+       margin: 20px;
+    }
+    .cover h1{
+      font-size: 50px;
+      font-family: 'Indie Flower', cursive;
+      margin-top: 250px;
+      margin-bottom: 75px;
+    }
+    .head {
+      background: url("https://i.imgur.com/SIk9LkV.jpg") no-repeat center top;
+      background-attachment: fixed;
+      background-size: cover;
+      overflow-y: auto;
+      position: relative;
+      text-align: center;
+    }
+    
+  
+    .cover .btn {
+      background-color: #14213D;
+      background-image: -webkit-linear-gradient(#adffa5, #32702c);
+      color: #FFF;
+      display: inline-block;
+      font-family: 'Amatic SC', cursive;
+      font-size: 26px;
+      padding: 14px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-bottom: 250px;
+      
+      
+    }
+    
+    .lyrics p {
+      background: #FFF;
+      border-radius: 10px;
+      border-style: solid;
+      color: black;
+      margin: 20px auto;
+      width: 300px;
+      padding: 15px;
+      color: gray; 
+      font-weight 700;
+    }
