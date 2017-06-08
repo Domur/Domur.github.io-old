@@ -129,3 +129,7 @@
     .nav a {
       text-decoration: none;
     }
+    .nav li:hover {
+      background: rgb(123, 87, 25);
+      color: rgb(255, 241, 224);
+    }
