@@ -1,4 +1,3 @@
-function main(){
-
+function myFunc(){
+alert('LUL');
 }
-$(document).ready(main);
