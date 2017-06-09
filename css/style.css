@@ -44,6 +44,7 @@
     
     li {
       display: inline;
+      color: rgb(123, 87, 25);
       border: 2px solid rgb(123, 87, 25);
       background: rgb(255, 241, 224);
       font-size: 20px;
@@ -132,4 +133,38 @@
     .nav li:hover {
       background: rgb(123, 87, 25);
       color: rgb(255, 241, 224);
+    }
+    
+    .container {
+      margin: 20px;
+      text-align: center;
+    }
+    
+    .row {
+      
+      margin: 8px auto;  
+
+    }
+    
+    .box {
+     color: rgb(123, 87, 25);
+     background-color: rgb(255, 241, 224);
+     display: inline-block;
+     border: 1px solid rgb(123, 87, 25);
+     font-size: 20px;
+     padding: 60px;
+     text-decoration: none;
+     margin-left: 2px;
+     margin-right: 2px;
+     cursor: hand;
+     cursor: pointer;
+    }
+    
+    .box:hover {
+      background-color: rgb(123, 87, 25);
+      color: rgb(255, 241, 224);
+    }
+    
+    button:focus {
+      outline: 0;
     }
