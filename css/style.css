@@ -1,5 +1,6 @@
 /* css/style.css */ 
-* {
+* {   
+      cursor: none;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -46,6 +47,7 @@
       display: inline;
       color: rgb(123, 87, 25);
       border: 2px solid rgb(123, 87, 25);
+      border-radius: 4px;
       background: rgb(255, 241, 224);
       font-size: 20px;
       line-height: 50px;
@@ -146,6 +148,7 @@
     }
     
     .box {
+      
       height: 200px;
       width: 200px;
       overflow: hidden;
@@ -161,8 +164,8 @@
      text-decoration: none;
      margin-left: 2px;
      margin-right: 2px;
-     cursor: hand;
-     cursor: pointer;
+     /*cursor: hand;
+     cursor: pointer */;
     }
     
      .box2 {
@@ -180,8 +183,8 @@
      text-decoration: none;
      margin-left: 2px;
      margin-right: 2px;
-     cursor: hand;
-     cursor: pointer;
+     /*cursor: hand;
+     cursor: pointer*/;
     }
     
     .box:hover {
@@ -195,10 +198,18 @@
     
     .box .box2 {
       backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
+      position: absolute;
+	    top: 0;
+	    left: 0;
     }
 
-    
+    #circle {
+      z-index: 1000;
+      text-align: center;
+      height: 50px;
+      width: 50px;
+      border-radius: 50px;
+      background-color: rgb(84, 12, 143);
+      pointer-events: none;
+      position: absolute;
+    }
