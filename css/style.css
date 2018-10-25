@@ -1,11 +1,11 @@
 /* css/style.css */ 
 * {   
-      cursor: none;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       overflow-y: auto;
       }
+
     .whole {
       margin-top: 0;
       padding: 0;
@@ -201,15 +201,4 @@
       position: absolute;
 	    top: 0;
 	    left: 0;
-    }
-
-    #circle {
-      z-index: 1000;
-      text-align: center;
-      height: 50px;
-      width: 50px;
-      border-radius: 50px;
-      background-color: rgb(84, 12, 143);
-      pointer-events: none;
-      position: absolute;
     }
